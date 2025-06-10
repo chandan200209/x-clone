@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="./src/output.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/images/favicon.svg" />
+  </head>
+  <body  class="bg-black text-white"> 
+    <div>
+      <div class="flex md:container md:mx-auto mx-0">
+        <div class="first ml-3 md:ml-0 w-12 md:w-1/2 font-semibold">
+          
+          <div class="sidebar flex flex-col md:pr-2 pr-2 sticky top-0">
+            <div
+            class="logo mt-3 cursor-pointer hover:bg-neutral-900 relative hover:pl-3 w-14 hover:right-3 rounded-4xl h-12 text-lg flex items-center"
+          >
+            <img class="w-8 invert" src="./assets/svg/x.svg" alt="x-svg" />
+          </div>
+            <ul class="flex flex-col text-lg mt-2">
+              <li
+                class="flex gap-4 items-center font-bold hover:bg-neutral-900 cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg md:w-fit"
+              >
+                <span
+                ><img
+                    src="./assets/svg/home.svg"
+                    alt="home-svg"
+                    class="w-7" /></span                ><span class="hidden md:block">Home</span>
+              </li>
+              <li
+                class="flex gap-4 items-center hover:bg-neutral-900 md:w-fit cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg"
+              >
+                <span
+                ><img src="./assets/svg/search.svg" alt="" class="w-7" />
+                </span><span class="hidden md:block">Explore</span>
+              </li>
+              <li
+                class="flex gap-4 items-center hover:bg-neutral-900 md:w-fit cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg"
+              >
+                <span
+                ><img
+                    src="./assets/svg/notifications.svg"
+                    alt=""
+                    class="w-7" />
+
+                </span
+                ><span class="hidden md:block">Notifications</span>
+              </li>
+              <li
+                class="flex gap-4 items-center hover:bg-neutral-900 md:w-fit cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg"
+              >
+                <span
+                ><img
+                    src="./assets/svg/messages.svg"
+                    alt=""
+                    class="w-7" /></span                ><span class="hidden md:block">Messages</span>
+              </li>
+              <li
+                class="flex gap-4 items-center hover:bg-neutral-900 md:w-fit cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg"
+              >
+                <span
+                ><img
+                    class="w-7 invert"
+                    src="./assets/svg/grok.svg"
+                    alt="" /></span
+                ><span class="hidden md:block">Grok</span>
+              </li>
+              <li
+                class="flex gap-4 items-center hover:bg-neutral-900 md:w-fit cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg"
+              >
+                <span
+                ><img src="./assets/svg/group.svg" alt="" class="w-7" /></span                ><span class="hidden md:block">Communities</span>
+              </li>
+              <li
+                class="flex gap-4 items-center hover:bg-neutral-900 md:w-fit cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg"
+              >
+                <span
+                ><img
+                    class="w-7 invert"
+                    src="./assets/svg/x.svg"
+                    alt="" /></span                ><span class="hidden md:block">Premium</span>
+              </li>
+              <li
+                class="flex gap-4 items-center hover:bg-neutral-900 md:w-fit cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg"
+              >
+                <span
+                ><img
+                    src="./assets/svg/lightning.svg"
+                    alt=""
+                    class="w-7" /></span                ><span class="hidden md:block">Verified Orgs</span>
+              </li>
+              <li
+                class="flex gap-4 items-center hover:bg-neutral-900 md:w-fit cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg"
+              >
+                <span
+                ><img src="./assets/svg/person.svg" alt="" class="w-7" /></span                ><span class="hidden md:block">Profile</span>
+              </li>
+              <li
+                class="flex gap-4 items-center hover:bg-neutral-900 md:w-fit cursor-pointer hover:rounded-4xl hover:px-4 hover:pr-8 relative hover:right-4 h-12 text-lg"
+              >
+                <span
+                ><img src="./assets/svg/more.svg" alt="" class="w-7" /></span                ><span class="hidden md:block">More</span>
+              </li>
+            </ul>
+            <div
+              class="post w-10 h-10 relative right-1 md:right-0 md:w-56 md:h-12 bg-white text-black rounded-4xl flex items-center justify-center font-semibold mt-6 cursor-pointer hover:bg-neutral-100"
+            >
+            <div><img src="./assets/svg/quill-write-01-stroke-rounded.svg" class="md:hidden block" alt=""></div>
+              <div class="md:block hidden">Post</div>
+            </div>
+            <div
+            class="profile flex items-center md:gap-2 mt-8 cursor-pointer hover:bg-neutral-900 relative md:pl-2 rounded-4xl md:py-2 right-4"
+          >
+            <div>
+              <img
+                class="md:h-12 md:w-12 h-10 w-10 relative md:left-0 left-3 rounded-4xl"
+                src="./assets/images/IMG20230421154847 (2) new.jpg"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col">
+              <div class="uppercase md:block hidden">Chandan Ramteke</div>
+              <div class="text-gray-500 md:block hidden">@ChandanRamteke8</div>
+            </div>
+            <div>
+              <img src="./assets/svg/three-dots.svg" class="invert md:block hidden w-5" alt="" />
+            </div>
+          </div>
+          </div>
+          
+        </div>
+        <div
+          class="second md:w-full w-lg border-[1.75px] border-x-neutral-800 border-y-black"
+        >
+          <div class="top flex justify-between  sticky top-0 bg-black opacity-90 z-1 backdrop-blur-3xl">
+            <div class="flex w-xl justify-around">
+              <div class="font-bold cursor-pointer  md:px-[100px] px-8 hover:bg-neutral-900"><p class="px-[10px] py-3 border-b-4 border-blue-500">For You</p></div>
+              <div class="text-gray-400 cursor-pointer  md:px-[100px] px-8 py-3 hover:bg-neutral-900"><p>Following</p></div>
+            </div>
+            <div class="justify-end px-6 py-3 cursor-pointer"><img  class="invert" src="./assets/svg/settings-02-stroke-rounded.svg" alt=""></div>
+          </div>
+          <div class="h-[2px] bg-neutral-900 sticky top-[52px]"></div>
+          
+          <div class="flex flex-col gap-2.5 px-3 py-4">
+            <div class="flex justify-start items-center gap-4 pl-3"><img class="h-12 w-12 rounded-4xl" src="./assets/images/IMG20230421154847 (2) new.jpg" alt=""><span class="text-neutral-500 text-xl"><input class="border-none w-[480px] focus:outline-none" type="text" placeholder="What's happening ?"></span></div>
+            <div class="flex items-center gap-3 pl-18"><img class="w-5 invert h-5"  src="./assets/svg/global-stroke-rounded.svg" alt=""><span class="text-blue-400 font-bold text-sm">Everyone can reply</span></div>
+            <div class="flex md:justify-around justify-normal pl-16 sm:pl-0 sm:justify-evenly items-center">
+              <div class="flex py-3 invert gap-1"><span><img class="w-8 h-8 cursor-pointer hover:bg-neutral-200 rounded-4xl p-1.5" src="./assets/svg/image-03-stroke-rounded.svg" alt=""></span><span><img class="w-8 h-8 cursor-pointer hover:bg-neutral-200 rounded-4xl p-1.5" src="./assets/svg/gif-02-stroke-rounded.svg" alt=""></span><span><img  class="w-8 h-8 cursor-pointer hover:bg-neutral-200 rounded-4xl p-1.5" src="./assets/svg/grok.svg" alt=""></span><span><img class="w-8 h-8 cursor-pointer hover:bg-neutral-200 rounded-4xl p-1.5" src="./assets/svg/paragraph-bullets-point-02-stroke-rounded.svg" alt=""></span><span><img class="w-8 h-8 cursor-pointer hover:bg-neutral-200 rounded-4xl p-1.5"  src="./assets/svg/smile-stroke-rounded.svg" alt=""></span><span><img class="w-8 h-8 cursor-pointer hover:bg-neutral-200 rounded-4xl p-1.5" src="./assets/svg/calendar-03-stroke-rounded.svg" alt=""></span><span><img class="w-8 h-8 cursor-pointer hover:bg-neutral-200 rounded-4xl p-1.5" src="./assets/svg/location-04-stroke-rounded.svg" alt=""></span></div>
+              <div><button type="button" class="md:px-6 px-3 font-bold relative left-14 cursor-pointer py-2 rounded-4xl bg-neutral-500 text-black">Post</button></div>
+            </div>
+          </div>
+          <div class="h-[2px] bg-neutral-900"></div>
+          <div class="flex justify-center items-center text-blue-400 h-10 text-sm"><p class="cursor-pointer hover:text-blue-300">Show 45 posts</p></div>
+          <div class="h-[2px] bg-neutral-900"></div>
+          <div class="posts flex flex-col pb-3">
+            <div class="post flex flex-col">
+              <div class="top flex justify-between items-center p-4">
+                <div class="flex gap-3">
+                  <div><img class="h-10 w-10 rounded-4xl relative top-1" src="./assets/images/illustration.jpg" alt=""></div>
+                  <div class="flex flex-col gap-1">
+                    <div class="flex gap-1.5 items-center cursor-pointer"><span class="font-bold hover:underline">Gems</span><span><img class="invert w-4 relative top-0.5" src="./assets/svg/checkmark-badge-01-stroke-rounded.svg" alt=""></span><span class="text-gray-400">@gems_of_blue02 • June 05</span></div>
+                    <div class="italic">Quote of the Day !! Happy June. </div>
+                  </div>
+                </div>
+                <div class="flex invert gap-1.5 cursor-pointer"><img src="./assets/svg/grok.svg" class="w-5 h-5" alt=""><img src="./assets/svg/three-dots.svg" class="w-5 h-5" alt=""></div>
+              </div>
+              <div class="content">
+                <img class="mx-16 my-5 md:w-[440px] w-96 rounded-3xl" src="./assets/images/choose-happiness-quotes0.jpg" alt="">
+              </div>
+              <div class="activity flex justify-around pt-0 w-[90%] mx-auto text-gray-400 ">
+                <div class="hover:text-blue-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/bubble-chat-stroke-rounded.svg" alt=""></span><span>125</span></div>
+                <div class="hover:text-green-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/arrow-reload-vertical-stroke-rounded.svg" alt=""></span><span>1.3k</span></div>
+                <div class="hover:text-pink-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/favourite-stroke-rounded.svg" alt=""></span><span>18k</span></div>
+                <div class="hover:text-blue-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/chart-01-stroke-rounded.svg" alt=""></span><span>167k</span></div>
+                <div class=" hover:text-blue-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/bookmark-02-stroke-rounded.svg" alt=""></span><span class="p-1"><img class="w-5 hover:stroke-blue-500" src="./assets/svg/share-03-stroke-rounded.svg" alt=""></span></div>
+              </div>
+            </div>
+            <div class="h-[2px] bg-neutral-900 mt-4"></div>
+            <div class="post flex flex-col">
+              <div class="top flex justify-between items-center p-4">
+                <div class="flex gap-3">
+                  <div><img class="h-10 w-10 rounded-4xl relative top-1" src="./assets/images/charles.jpg" alt=""></div>
+                  <div class="flex flex-col gap-1">
+                    <div class="flex gap-1.5 items-center cursor-pointer"><span class="font-bold hover:underline">The Royal Family</span><span><img class="invert w-4 relative top-0.5" src="./assets/svg/checkmark-badge-01-stroke-rounded.svg" alt=""></span><span class="text-gray-400">@royalfamily • June 06</span></div>
+                    <div class="italic">The Royal Family of the England</div>
+                  </div>
+                </div>
+                <div class="flex invert gap-1.5 cursor-pointer"><img src="./assets/svg/grok.svg" class="w-5 h-5" alt=""><img src="./assets/svg/three-dots.svg" class="w-5 h-5" alt=""></div>
+              </div>
+              <div class="content">
+                <div class="mx-18">The King has visited the Royal Regiment of Artillery in Larkhill, meeting military personnel and their families from the 21 regiments that form the Royal Regiment.
+
+His Majesty also heard about the Regiment’s training and equipment - before being invited to fire a L118 Light Gun.</div>
+              </div>
+              <div class="activity flex justify-around pt-2  w-[90%] mx-auto text-gray-400">
+                <div class=" hover:text-blue-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/bubble-chat-stroke-rounded.svg" alt=""></span><span>12</span></div>
+                <div class="hover:text-green-400 flex hover:bg-gray-900 p-3.5 rounded-full items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/arrow-reload-vertical-stroke-rounded.svg" alt=""></span><span>31</span></div>
+                <div class="hover:text-pink-400 flex hover:bg-gray-900 p-3.5 rounded-full items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/favourite-stroke-rounded.svg" alt=""></span><span>556</span></div>
+                <div class="hover:text-blue-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/chart-01-stroke-rounded.svg" alt=""></span><span>7.8K</span></div>
+                <div class="hover:text-blue-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/bookmark-02-stroke-rounded.svg" alt=""></span><span class="p-1"><img class="w-5 hover:stroke-blue-500" src="./assets/svg/share-03-stroke-rounded.svg" alt=""></span></div>
+              </div>
+            </div>
+            <div class="h-[2px] bg-neutral-900 mt-4"></div>
+            <div class="post flex flex-col">
+              <div class="top flex justify-between items-center p-4">
+                <div class="flex gap-3">
+                  <div><img class="h-10 w-10 rounded-4xl relative top-1" src="./assets/images/anime.jpg" alt=""></div>
+                  <div class="flex flex-col gap-1">
+                    <div class="flex gap-1.5 items-center cursor-pointer"><span class="font-bold hover:underline">CDProjekt RED</span><span><img class="invert w-4 relative top-0.5" src="./assets/svg/checkmark-badge-01-stroke-rounded.svg" alt=""></span><span class="text-gray-400">@cdprojektred • 6h</span></div>
+                    <div class="italic">The Witcher 3 : Wild Hunt Complete Edition</div>
+                  </div>
+                </div>
+                <div class="flex invert gap-1.5 cursor-pointer"><img src="./assets/svg/grok.svg" class="w-5 h-5" alt=""><img src="./assets/svg/three-dots.svg" class="w-5 h-5" alt=""></div>
+              </div>
+              <div class="content">
+                <p class="px-18">The game takes place in a fictional fantasy world based on Slavic folklore. Players control Geralt of Rivia, a monster slayer for hire known as a Witcher, and search for his adopted daughter who is on the run from the Wild Hunt. Players battle the game's many dangers with weapons and magic, interact with non-player characters, and complete quests to acquire experience points and gold, which are used to increase Geralt's abilities and purchase equipment.</p>
+                <img class="mx-16 my-5 md:w-[440px] w-96 rounded-3xl" src="./assets/images/witcher 3.jpg" alt="">
+              </div>
+              <div class="activity flex justify-around w-[90%] mx-auto text-gray-400">
+                <div class="hover:text-blue-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/bubble-chat-stroke-rounded.svg" alt=""></span><span>52</span></div>
+                <div class="hover:text-green-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/arrow-reload-vertical-stroke-rounded.svg" alt=""></span><span>231</span></div>
+                <div class="hover:text-pink-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/favourite-stroke-rounded.svg" alt=""></span><span>961</span></div>
+                <div class="hover:text-blue-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/chart-01-stroke-rounded.svg" alt=""></span><span>97.2K</span></div>
+                <div class="hover:text-blue-400 hover:bg-gray-900 p-3.5 rounded-full flex items-center h-5 cursor-pointer"><span class="p-1"><img class="w-4" src="./assets/svg/bookmark-02-stroke-rounded.svg" alt=""></span><span class="p-1"><img class="w-5 hover:stroke-blue-500" src="./assets/svg/share-03-stroke-rounded.svg" alt=""></span></div>
+              </div>
+            </div>
+            <div class="h-[2px] bg-neutral-900 mt-4"></div>
+          </div>
+        </div>
+        <div class="third md:w-1/2 pl-3 flex flex-col">
+          <div class="hidden md:block sticky top-0">
+          <div class="search flex items-center">
+            <div><img src="./assets/svg/search.svg" class="relative left-10 top-2 w-[20px]" alt="" /></div>
+            <input
+              type="text"
+              class="rounded-4xl w-96 border-2 p-3 mt-3 pl-12 hover:border-2 text-white hover:border-blue-400 border-neutral-800 h-10"
+              placeholder="Search"></input>
+          </div>
+          <div class="subscribe mt-6 border-neutral-800 border md:ml-4 p-2 flex flex-col gap-2 md:pl-4 rounded-2xl">
+            <h1 class="text-xl font-bold">Subscribe to Premium</h1>
+            <p class="text-stone-200">Subscribe to unlock new features and if eligible, receive a share of revenue.</p>
+            <p class="bg-blue-400 w-fit px-4 py-1.5 mt-2 rounded-4xl font-extrabold mb-2"><button type="button" class="cursor-pointer">Subscribe</button></p>
+          </div>
+          <div class="live cursor-pointer flex flex-col gap-3 ml-4 p-3 pl-4 border-neutral-800 border w-[368px] mt-4 rounded-2xl">
+            <div><h1 class="text-xl font-bold">Live on X</h1></div>
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <p class="flex gap-2"><img class="w-5" src="./assets/images/ndtv_logo.webp" alt="" /><span class="text-[14px]">NDTV <span class="text-sm text-gray-400">is hosting</span></span></p>
+                <p class="font-bold">NDTV Live</p>
+              </div>
+              <div><img class="w-14" src="./assets/images/ndtv_logo.webp" alt="" /></div>
+            </div>
+          </div>
+          <div class="whats cursor-pointer flex flex-col gap-3 ml-4 p-3 pl-4 border-neutral-800 border w-[368px] mt-4 rounded-2xl">
+            <div><h1 class="text-xl font-bold">What's Happening</h1></div>
+            <div class="flex gap-4">
+              <div><img src="./assets/images/kings world cup.jpg" class="w-20" alt="" /></div>
+              <div><p class="font-bold">Kings World Cup Club</p><p class="text-gray-400 text-sm">LIVE</p></div>
+            </div>
+            <div class="flex justify-between hover:bg-neutral-900 p-2 rounded-2xl"><div class="flex flex-col"><p class="text-sm">Sports • Trending</p><p class="font-bold">#MIvsPBKS</p><p class="text-sm text-gray-400">24.7k posts</p></div><div><img class="invert" src="./assets/svg/three-dots.svg" alt="" />
+            </div></div>
+            <div class="flex justify-between hover:bg-neutral-900 p-2 rounded-2xl"><div class="flex flex-col"><p class="text-sm">Politics • Trending</p><p class="font-bold">Ukraine</p><p class="text-sm text-gray-400">55.8k posts</p></div><div><img class="invert" src="./assets/svg/three-dots.svg" alt="" /></div></div>
+            <div class="flex justify-between hover:bg-neutral-900 p-2 rounded-2xl"><div class="flex flex-col"><p class="text-sm">Business and Finance • Trending</p><p class="font-bold">#Nifty</p><p class="text-sm text-gray-400">5.8k posts</p></div><div><img class="invert" src="./assets/svg/three-dots.svg" alt="" /></div></div>
+            <div class="text-blue-500 pl-3 text-sm hover:text-blue-300">Show More</div>
+          </div>
+          <div class="who-to-follow cursor-pointer flex flex-col gap-3 ml-4 p-3 pl-4 border-neutral-800 border w-[368px] mt-4 rounded-2xl">
+            <h1 class="text-xl font-bold">Who to Follow</h1>
+            <div class="flex justify-between hover:bg-neutral-900 p-2 items-center rounded-xl">
+              <div class="flex items-center gap-4">
+                <div><img class="rounded-4xl w-8" src="./assets/images/overmind.jpg" alt="" /></div>
+                <div class="flex flex-col"><p class="font-bold">Overmind</p><p class="text-sm text-gray-400">@overmind01</p></div>
+              </div>
+              <div><button type="button" class="font-bold text-black bg-white px-4 py-1 rounded-4xl cursor-pointer text-sm mr-2 hover:invert">Follow</button></div>
+            </div>
+            <div class="flex justify-between hover:bg-neutral-900 p-2 items-center rounded-xl">
+              <div class="flex items-center gap-4">
+                <div><img class="rounded-4xl w-8" src="./assets/images/droupdi murmu.jpg" alt="" /></div>
+                <div class="flex flex-col"><p class="font-bold">Droupdi Murmu</p><p class="text-sm text-gray-400">@presidentofindia</p></div>
+              </div>
+              <div><button type="button" class="font-bold text-black bg-white px-4 py-1 rounded-4xl cursor-pointer text-sm mr-2 hover:invert">Follow</button></div>
+            </div>
+            <div class="flex justify-between hover:bg-neutral-900 p-2 items-center rounded-xl">
+              <div class="flex items-center gap-4">
+                <div><img class="rounded-4xl w-8" src="./assets/images/spacex.jpg" alt="" /></div>
+                <div class="flex flex-col"><p class="font-bold">Spacex</p><p class="text-sm text-gray-400">@spacexxx32</p></div>
+              </div>
+              <div><button type="button" class="font-bold text-black bg-white px-4 py-1 rounded-4xl cursor-pointer text-sm mr-2 hover:invert">Follow</button></div>
+            </div>
+            <div class="text-blue-500 pl-3 text-sm hover:text-blue-300">Show More</div>
+          </div>
+          <div class="flex flex-col text-xs text-gray-500 pl-16 mt-4">
+            <p class="flex gap-3"><span>Terms of Service |</span> <span>Privacy Policy |</span> <span>Cookie Policy |</span> </p>
+            <p class="flex gap-3"><span>Accessibility |</span> <span>Ads info |</span> <span>More</span> <span>© 2025 X Corp.</span></p>
+          </div>
+          <div class="messages cursor-pointer flex justify-between ml-4 p-3 pl-4 mb-1 border-neutral-800 border-2 w-[368px] mt-4 rounded-2xl">
+            <div><h1 class="font-bold">Messages</h1></div>
+            <div class="flex gap-4 invert"><img src="./assets/svg/mail-add-01-stroke-rounded.svg" alt="" /><img src="./assets/svg/square-arrow-vertical-stroke-rounded.svg" alt="" /></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
